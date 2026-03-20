@@ -7,6 +7,94 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+- name: WmSalesforceRESTProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.siqa_git_2025.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:RestConnAlias2003
+  packages:
+  - name: SIQA_GIT_2025Project
+    version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.16
 configurationVariables:
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth.consumerId
+  : 3MVG9pe2TCoA1Pf6F9PMP1LEDsuYm6pfL6T8OD7YSQUQsx36uZNIjUH3BCzBZ8lgStKaUEITogkQ7hNByxJjv
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.socketLinger
+  : "-1"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.tcpNoDelay
+  : "false"
   jdbcfunc.SAPTxStore.failFastMode: false
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.socketStaleCheck
+  : "true"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth.accessToken
+  : "{AES}bzO+KX5xKoE0CKrgiYZryEJCc28x2QBODfJSJ6CleRFa+2DzxictbQsvDI2sVqSPyla7tLzWYTVeW/YHTq2TnIndWhV0t/tnSTjg5GXclIH2589LJj3W7DaymwFSO9GDthMYCsMRtvjnQ85gGn25EWmK1wuN3U1rA1B0VhuZoUw="
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.validateAfterInactivity
+  : "1000"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.scope
+  : offline_access api refresh_token
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.timeoutType
+  : auto
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.poolable
+  : "true"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.poolIncrementSize
+  : "1"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.keepAliveInterval
+  : "300000"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.authorizationServerUrl
+  : https://login.salesforce.com/services/oauth2/authorize
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.accessTokenRefreshURLRequest
+  : URL Query String
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth.consumerSecret
+  : "{AES}8bc8/WHaL3dph5PtuD02009Twi827NgOvyLy8mkfF31b5gfhajCNPAG/2OxW9yx8fPwx12ONSDGw1NRjVAxIemmK1wuN3U1rA1B0VhuZoUw="
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.blockTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.reuseAddr
+  : "false"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.retryIfRequestSentOk
+  : "true"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.maximumPoolSize
+  : "10"
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.connectTimeout
+  : "30000"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.expireTimeout
+  : "1000"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.readTimeout
+  : "30000"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.accessTokenRefreshURL
+  : https://login.salesforce.com/services/oauth2/token
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.idleTimeout
+  : "-1"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cx.grant_type
+  : refresh_token
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.enableCompression
+  : "false"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.startupBackoffSecs
+  : "10"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.authenticationServerUrl
+  : https://login.salesforce.com/services/oauth2/token
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.retryCount
+  : "4"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.connectionEnabled
+  : "true"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.refreshAccessToken
+  : "true"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.hostnameVerifier
+  : org.apache.http.conn.ssl.DefaultHostnameVerifier
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.providerUrl
+  : https://d0o000001qr6keac-dev-ed.my.salesforce.com
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.authorizationHeaderPrefix
+  : Bearer
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.enableSNI
+  : "true"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.startupRetryCount
+  : "0"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.cn.sockBuffSize
+  : "8192"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.authorizationHeaderInTokenRefresh
+  : "false"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.oauth_v20.refreshToken
+  : "{AES}iVEYOEICT1x7P9RL3dwVv0pQv1IODTw0Qm0vrSHPR8I0XZ0/KrBE7WODHo6AzR1637cjFT8vTWSxMJCq+8Fwx23ujlk6B/pLD2FnkHRwbbHw+MNh1fzWP9ra98cky/Z+"
+  ? cloudstreamsconnection.project..siqa_git_2025..WmSalesforceRESTProvider..com_webmethods_cloudstreams_salesforce_rest_v60..connections:RestConnAlias2003.minimumPoolSize
+  : "1"
